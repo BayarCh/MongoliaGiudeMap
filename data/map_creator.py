@@ -85,7 +85,7 @@ def add_markers_by_type(df, groups, search_layer):
                              style="width: 100%; height: auto; min-height: 225px; object-fit: cover; object-position: center; display: block; margin: 0; border: none; cursor: pointer !important;" 
                              onerror="this.src='https://via.placeholder.com/280x150?text=No+Image'">
                     </div>
-                    <div style="position: absolute; bottom: 8px; right: 8px; background: rgba(0,0,0,0.6); color: white; padding: 3px 8px; border-radius: 4px; font-size: 10px; font-family: sans-serif; pointer-events: none;">🔍 Томсгох</div>
+                    <div style="position: absolute; bottom: 8px; right: 8px; background: rgba(0,0,0,0.6); color: white; padding: 3px 8px; border-radius: 4px; font-size: 10px; font-family: sans-serif; pointer-events: none;">🔍 Zoom in</div>
                 </a>
 
                 <div style="padding: 10px 15px 15px 15px; margin-top: -1px; background: white; position: relative; z-index: 2;">
@@ -417,14 +417,14 @@ function onMapClick(e) {
 
      // Текстийг зүүн тийш нь шахаж (text-align:left), баруун буланг X товчлуурт суллаж өгөв
      var content = '<div style="text-align: left; font-family: sans-serif; min-width: 220px; padding: 15px 25px 10px 18px; box-sizing: border-box;">' +
-                   '<b style="font-size:14px; color:#2c3e50; display:block; margin-bottom:6px; white-space: nowrap;">📍 Шинэ цэг нэмэх үү?</b>' +
+                   '<b style="font-size:14px; color:#2c3e50; display:block; margin-bottom:6px; white-space: nowrap;">📍 Add a new point?</b>' +
                    '<code style="color:#e74c3c; font-size:12px; background:#f8f9fa; padding:2px 6px; border-radius:3px; display:inline-block; margin-bottom:12px; margin-left: 20px;">' + lat + ', ' + lng + '</code><br>' +
 
                    /* Ногоон товчлуурыг голд нь байрлуулахын тулд тусад нь div-д хийв */
                    '<div style="text-align: center; width: 100%;">' +
                    '<a href="' + formUrl + '" target="_blank" ' +
                    'style="background:#27ae60; color:white; padding:10px 20px; border-radius:25px; text-decoration:none; font-weight:bold; font-size:13px; display:inline-block; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">' +
-                   'Мэдээлэл илгээх</a>' +
+                   'Send information</a>' +
                    '</div>' +
                    '</div>';
 
@@ -539,7 +539,7 @@ function shareOnMessenger() {
     border: 1px solid #ddd;
 ">
     <p style="margin: 0 0 5px 0; font-size: 9px; font-weight: bold; color: #1a73e8; font-family: sans-serif;">SCAN TO MOBILE</p>
-    <img src="https://api.qrserver.com/v1/create-qr-code/?size=70x70&data=https://travelmap.mn/?v=76" 
+    <img src="https://api.qrserver.com/v1/create-qr-code/?size=70x70&data=https://travelmap.mn/?v=77" 
          alt="QR Code" style="width: 70px; height: 70px; display: block;">
 </div>
 """
@@ -635,7 +635,7 @@ custom_layout = """
 </style>
 <div class="leaflet-bottom leaflet-left" style="pointer-events: auto; margin-bottom: 0px; margin-left: 1px;">
     <div class="leaflet-control-attribution leaflet-control" style="font-size: 11px; padding: 3px 5px; background: rgba(255, 255, 255, 0.8); border-radius: 4px; box-shadow: 0 1px 5px rgba(0,0,0,0.2);">
-        &copy; <a href="https://travelmap.mn" target="_blank" style="color: #333; text-decoration: none; font-weight: bold;">2026 TravelMap.mn | BayarChoijil</a>
+        &copy; <a href="https://travelmap.mn" target="_blank" style="color: #333; text-decoration: none; font-weight: bold;">2026 TravelMap.mn | BayarCh</a>
     </div>
 </div>
 """
@@ -1176,7 +1176,7 @@ function shareOnMessenger() {
     border: 1px solid #ddd;
 ">
     <p style="margin: 0 0 5px 0; font-size: 9px; font-weight: bold; color: #1a73e8; font-family: sans-serif;">SCAN TO MOBILE</p>
-    <img src="https://api.qrserver.com/v1/create-qr-code/?size=70x70&data=https://travelmap.mn/?v=76" 
+    <img src="https://api.qrserver.com/v1/create-qr-code/?size=70x70&data=https://travelmap.mn/?v=77" 
          alt="QR Code" style="width: 70px; height: 70px; display: block;">
 </div>
 """
