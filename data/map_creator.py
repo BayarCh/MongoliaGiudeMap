@@ -8,7 +8,7 @@ from folium.plugins import LocateControl, Search, MarkerCluster, MeasureControl
 def add_markers_by_type(df, groups, search_layer):
     df.columns = df.columns.str.strip()
     df = df.fillna("")
-    default_logo = "https://github.com/MongoliaMapGuide/map/blob/main/logo512.png?raw=true"
+    default_logo = "https://github.com/MongoliaGuideMap/blob/main/logo512.png?raw=true"
 
     for index, row in df.iterrows():
         try:
@@ -469,7 +469,7 @@ final_combined_controls = """
 <!-- Баруун талын сошиал цонхыг бүх зүйлийн дээр гаргах 🛡️ -->
 <div id="right-panel-controls" style="position: fixed; bottom: 20px; right: 20px; z-index: 999999 !important; display: flex; flex-direction: column; gap: 8px; align-items: flex-end;">
 
-    <a href="https://www.facebook.com/sharer/sharer.php?u=https://mongoliamapguide.github.io/map/" target="_blank" 
+    <a href="https://www.facebook.com/sharer/sharer.php?u=https://mongoliaguidemap.github.io" target="_blank" 
        style="background: #1877F2; color: white; width: 35px; height: 35px; border-radius: 50%; display: flex; align-items: center; justify-content: center; text-decoration: none; box-shadow: 0 2px 5px rgba(0,0,0,0.3);">
        <i class="fa-brands fa-facebook-f"></i>
     </a>
@@ -479,35 +479,35 @@ final_combined_controls = """
        <i class="fa-brands fa-facebook-messenger"></i>
     </a>
 
-    <a href="https://t.me/share/url?url=https://mongoliamapguide.github.io/map/" target="_blank" 
+    <a href="https://t.me/share/url?url=https://mongoliaguidemap.github.io" target="_blank" 
        style="background: #0088cc; color: white; width: 35px; height: 35px; border-radius: 50%; display: flex; align-items: center; justify-content: center; text-decoration: none; box-shadow: 0 2px 5px rgba(0,0,0,0.3);">
        <i class="fa-brands fa-telegram"></i>
     </a>
 
-    <a href="https://twitter.com/intent/tweet?url=https://mongoliamapguide.github.io/map/" target="_blank" 
+    <a href="https://twitter.com/intent/tweet?url=https://mongoliaguidemap.github.io" target="_blank" 
        style="background: #000000; color: white; width: 35px; height: 35px; border-radius: 50%; display: flex; align-items: center; justify-content: center; text-decoration: none; box-shadow: 0 2px 5px rgba(0,0,0,0.3);">
        <i class="fa-brands fa-x-twitter"></i>
     </a>
 
-    <a href="https://www.linkedin.com/sharing/share-offsite/?url=https://mongoliamapguide.github.io/map/" target="_blank" 
+    <a href="https://www.linkedin.com/sharing/share-offsite/?url=https://mongoliaguidemap.github.io" target="_blank" 
        style="background: #0077b5; color: white; width: 35px; height: 35px; border-radius: 50%; display: flex; align-items: center; justify-content: center; text-decoration: none; box-shadow: 0 2px 5px rgba(0,0,0,0.3);">
        <i class="fa-brands fa-linkedin-in"></i>
     </a>
 
-    <a href="https://github.com/MongoliaMapGuide/map" target="_blank" 
+    <a href="https://github.com/MongoliaGuideMap/" target="_blank" 
        style="background: #333; color: white; width: 35px; height: 35px; border-radius: 50%; display: flex; align-items: center; justify-content: center; text-decoration: none; box-shadow: 0 2px 5px rgba(0,0,0,0.3);">
        <i class="fa-brands fa-github"></i>
     </a>
 
     <div class="visitor-stats" style="margin-top: 5px; background: white; padding: 2px; border-radius: 4px; box-shadow: 0px 2px 8px rgba(0,0,0,0.2);">
-        <img src="https://api.visitorbadge.io/api/combined?path=https%3A%2F%2Fbayarchoijil.github.io%2Fmap%2F&labelColor=%2327ae60&countColor=%23555555&style=flat" 
+        <img src="https://api.visitorbadge.io/api/combined?path=https%3A%2F%2Fbayarch.github.io%2Fmap%2F&labelColor=%2327ae60&countColor=%23555555&style=flat" 
              alt="visitor badge" style="height: 22px; display: block; vertical-align: middle;">
     </div>
 </div>
 
 <script>
 function shareOnMessenger() {
-    var url = "https://mongoliamapguide.github.io/map/";
+    var url = "https://mongoliaguidemap.github.io";
     var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
     if (isMobile) {
         window.location.href = "fb-messenger://share/?link=" + encodeURIComponent(url);
@@ -658,7 +658,7 @@ from folium.plugins import LocateControl, Search, MarkerCluster, MeasureControl
 def add_markers_by_type(df, groups, search_layer):
     df.columns = df.columns.str.strip()
     df = df.fillna("")
-    default_logo = "https://github.com/MongoliaMapGuide/map/blob/main/logo512.png?raw=true"
+    default_logo = "https://github.com/MongoliaGuideMap/blob/main/logo512.png?raw=true"
 
     for index, row in df.iterrows():
         try:
@@ -1106,7 +1106,7 @@ m.get_root().header.add_child(folium.Element(analytics_code))
 final_combined_controls = """
 <div id="right-panel-controls" style="position: fixed; bottom: 20px; right: 20px; z-index: 999999 !important; display: flex; flex-direction: column; gap: 8px; align-items: flex-end;">
 
-    <a href="https://www.facebook.com/sharer/sharer.php?u=https://mongoliamapguide.github.io/map/" target="_blank" 
+    <a href="https://www.facebook.com/sharer/sharer.php?u=https://mongoliaguidemap.github.io" target="_blank" 
        style="background: #1877F2; color: white; width: 35px; height: 35px; border-radius: 50%; display: flex; align-items: center; justify-content: center; text-decoration: none; box-shadow: 0 2px 5px rgba(0,0,0,0.3);">
        <i class="fa-brands fa-facebook-f"></i>
     </a>
@@ -1116,35 +1116,35 @@ final_combined_controls = """
        <i class="fa-brands fa-facebook-messenger"></i>
     </a>
 
-    <a href="https://t.me/share/url?url=https://mongoliamapguide.github.io/map/" target="_blank" 
+    <a href="https://t.me/share/url?url=https://mongoliaguidemap.github.io" target="_blank" 
        style="background: #0088cc; color: white; width: 35px; height: 35px; border-radius: 50%; display: flex; align-items: center; justify-content: center; text-decoration: none; box-shadow: 0 2px 5px rgba(0,0,0,0.3);">
        <i class="fa-brands fa-telegram"></i>
     </a>
 
-    <a href="https://twitter.com/intent/tweet?url=https://mongoliamapguide.github.io/map/" target="_blank" 
+    <a href="https://twitter.com/intent/tweet?url=https://mongoliaguidemap.github.io" target="_blank" 
        style="background: #000000; color: white; width: 35px; height: 35px; border-radius: 50%; display: flex; align-items: center; justify-content: center; text-decoration: none; box-shadow: 0 2px 5px rgba(0,0,0,0.3);">
        <i class="fa-brands fa-x-twitter"></i>
     </a>
 
-    <a href="https://www.linkedin.com/sharing/share-offsite/?url=https://mongoliamapguide.github.io/map/" target="_blank" 
+    <a href="https://www.linkedin.com/sharing/share-offsite/?url=https://mongoliaguidemap.github.io" target="_blank" 
        style="background: #0077b5; color: white; width: 35px; height: 35px; border-radius: 50%; display: flex; align-items: center; justify-content: center; text-decoration: none; box-shadow: 0 2px 5px rgba(0,0,0,0.3);">
        <i class="fa-brands fa-linkedin-in"></i>
     </a>
 
-    <a href="https://github.com/MongoliaMapGuide/map" target="_blank" 
+    <a href="https://github.com/MongoliaGuideMap" target="_blank" 
        style="background: #333; color: white; width: 35px; height: 35px; border-radius: 50%; display: flex; align-items: center; justify-content: center; text-decoration: none; box-shadow: 0 2px 5px rgba(0,0,0,0.3);">
        <i class="fa-brands fa-github"></i>
     </a>
 
     <div class="visitor-stats" style="margin-top: 5px; background: white; padding: 2px; border-radius: 4px; box-shadow: 0px 2px 8px rgba(0,0,0,0.2);">
-        <img src="https://api.visitorbadge.io/api/combined?path=https%3A%2F%2Fbayarchoijil.github.io%2Fmap%2F&labelColor=%2327ae60&countColor=%23555555&style=flat" 
+        <img src="https://api.visitorbadge.io/api/combined?path=https%3A%2F%2Fbayarch.github.io%2Fmap%2F&labelColor=%2327ae60&countColor=%23555555&style=flat" 
              alt="visitor badge" style="height: 22px; display: block; vertical-align: middle;">
     </div>
 </div>
 
 <script>
 function shareOnMessenger() {
-    var url = "https://mongoliamapguide.github.io/map/";
+    var url = "https://mongoliaguidemap.github.io";
     var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
     if (isMobile) {
         window.location.href = "fb-messenger://share/?link=" + encodeURIComponent(url);
