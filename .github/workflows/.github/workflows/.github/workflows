@@ -19,3 +19,4 @@ jobs:
 
       - name: Run data script
         run: python scripts/add_data.py
+
