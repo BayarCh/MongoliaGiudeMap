@@ -539,7 +539,7 @@ function shareOnMessenger() {
     border: 1px solid #ddd;
 ">
     <p style="margin: 0 0 5px 0; font-size: 9px; font-weight: bold; color: #1a73e8; font-family: sans-serif;">SCAN TO MOBILE</p>
-    <img src="https://api.qrserver.com/v1/create-qr-code/?size=70x70&data=https://travelmap.mn/?v=77" 
+    <img src="https://api.qrserver.com/v1/create-qr-code/?size=70x70&data=https://travelmap.mn/?v=79" 
          alt="QR Code" style="width: 70px; height: 70px; display: block;">
 </div>
 """
@@ -937,7 +937,7 @@ if ('serviceWorker' in navigator) {
     /* 3. Зүүн талын суурь зураг (Таны хэмжээсүүд) */
     .leaflet-control-layers-base {
         background: rgba(255, 255, 255, 0.95) !important;
-        padding: 10px !important;
+        padding: 5px !important;
         border-radius: 12px !important;
         box-shadow: 0 2px 10px rgba(0,0,0,0.1) !important;
         margin-right: 10px !important; /* Бага зэрэг багасгаж зай хэмнэв */
@@ -947,7 +947,7 @@ if ('serviceWorker' in navigator) {
     /* 4. Баруун талын шүүлтүүр (Таны хэмжээсүүд) */
     .leaflet-control-layers-overlays {
         background: rgba(255, 255, 255, 0.95) !important;
-        padding: 10px !important;
+        padding: 5px !important;
         border-radius: 12px !important;
         box-shadow: 0 2px 10px rgba(0,0,0,0.1) !important;
         flex-shrink: 0 !important;
@@ -1106,7 +1106,7 @@ m.get_root().header.add_child(folium.Element(analytics_code))
 final_combined_controls = """
 <div id="right-panel-controls" style="position: fixed; bottom: 20px; right: 20px; z-index: 999999 !important; display: flex; flex-direction: column; gap: 8px; align-items: flex-end;">
 
-    <a href="https://www.facebook.com/sharer/sharer.php?u=https://mongoliaguidemap.github.io" target="_blank" 
+    <a href="https://www.facebook.com/sharer/sharer.php?u=https://travelmap.mn" target="_blank" 
        style="background: #1877F2; color: white; width: 35px; height: 35px; border-radius: 50%; display: flex; align-items: center; justify-content: center; text-decoration: none; box-shadow: 0 2px 5px rgba(0,0,0,0.3);">
        <i class="fa-brands fa-facebook-f"></i>
     </a>
@@ -1116,35 +1116,35 @@ final_combined_controls = """
        <i class="fa-brands fa-facebook-messenger"></i>
     </a>
 
-    <a href="https://t.me/share/url?url=https://mongoliaguidemap.github.io" target="_blank" 
+    <a href="https://t.me/share/url?url=https://travelmap.mn" target="_blank" 
        style="background: #0088cc; color: white; width: 35px; height: 35px; border-radius: 50%; display: flex; align-items: center; justify-content: center; text-decoration: none; box-shadow: 0 2px 5px rgba(0,0,0,0.3);">
        <i class="fa-brands fa-telegram"></i>
     </a>
 
-    <a href="https://twitter.com/intent/tweet?url=https://mongoliaguidemap.github.io" target="_blank" 
+    <a href="https://twitter.com/intent/tweet?url=https://travelmap.mn" target="_blank" 
        style="background: #000000; color: white; width: 35px; height: 35px; border-radius: 50%; display: flex; align-items: center; justify-content: center; text-decoration: none; box-shadow: 0 2px 5px rgba(0,0,0,0.3);">
        <i class="fa-brands fa-x-twitter"></i>
     </a>
 
-    <a href="https://www.linkedin.com/sharing/share-offsite/?url=https://mongoliaguidemap.github.io" target="_blank" 
+    <a href="https://www.linkedin.com/sharing/share-offsite/?url=https://travelmap.mn" target="_blank" 
        style="background: #0077b5; color: white; width: 35px; height: 35px; border-radius: 50%; display: flex; align-items: center; justify-content: center; text-decoration: none; box-shadow: 0 2px 5px rgba(0,0,0,0.3);">
        <i class="fa-brands fa-linkedin-in"></i>
     </a>
 
-    <a href="https://github.com/MongoliaGuideMap" target="_blank" 
+    <a href="https://github.com/BayarCh/MongoliaGuideMap" target="_blank" 
        style="background: #333; color: white; width: 35px; height: 35px; border-radius: 50%; display: flex; align-items: center; justify-content: center; text-decoration: none; box-shadow: 0 2px 5px rgba(0,0,0,0.3);">
        <i class="fa-brands fa-github"></i>
     </a>
 
     <div class="visitor-stats" style="margin-top: 5px; background: white; padding: 2px; border-radius: 4px; box-shadow: 0px 2px 8px rgba(0,0,0,0.2);">
-        <img src="https://api.visitorbadge.io/api/combined?path=https%3A%2F%2Fbayarch.github.io%2Fmap%2F&labelColor=%2327ae60&countColor=%23555555&style=flat" 
+        <img src="https://api.visitorbadge.io/api/combined?path=https%3A%2F%2Fbayarchoijil.github.io%2Fmap%2F&labelColor=%2327ae60&countColor=%23555555&style=flat" 
              alt="visitor badge" style="height: 22px; display: block; vertical-align: middle;">
     </div>
 </div>
 
 <script>
 function shareOnMessenger() {
-    var url = "https://mongoliaguidemap.github.io";
+    var url = "https://travelmap.mn";
     var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
     if (isMobile) {
         window.location.href = "fb-messenger://share/?link=" + encodeURIComponent(url);
@@ -1176,11 +1176,10 @@ function shareOnMessenger() {
     border: 1px solid #ddd;
 ">
     <p style="margin: 0 0 5px 0; font-size: 9px; font-weight: bold; color: #1a73e8; font-family: sans-serif;">SCAN TO MOBILE</p>
-    <img src="https://api.qrserver.com/v1/create-qr-code/?size=70x70&data=https://travelmap.mn/?v=77" 
+    <img src="https://api.qrserver.com/v1/create-qr-code/?size=70x70&data=https://travelmap.mn" 
          alt="QR Code" style="width: 70px; height: 70px; display: block;">
 </div>
 """
-
 # --- БҮХ CSS ЗАГВАРУУДЫГ НЭГ ДОР НЭГТГЭСЭН ХАЙРЦАГ ---
 custom_layout = """
 <style>

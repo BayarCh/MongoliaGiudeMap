@@ -1,6 +1,6 @@
 {
-  "packageId": "com.mongoliamapguide.twa",
-  "host": "mongoliamapguide.github.io",
+  "packageId": "com.mongoliaguidemap.twa",
+  "host": "mongoliaguidemap.github.io",
   "name": "Mongolia Travel Map",
   "launcherName": "TravelMap",
   "displayMode": "standalone",
