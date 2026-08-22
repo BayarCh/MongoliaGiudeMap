@@ -9,3 +9,6 @@ __pycache__/
 
 # Хэрэв маш том CSV эсвэл ZIP файл байгаа бол
 *.zip
+
+# Local Netlify folder
+.netlify
